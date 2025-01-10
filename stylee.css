@@ -1,0 +1,83 @@
+body {
+    font-size: 120%;
+    color: bisque;
+    background-color: rgb(101, 101, 215);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    text-underline-position: below;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(204, 255, 0);
+}
+
+header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: rgb(101, 101, 215);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+}
+
+div h1 {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 14%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: rotate3d(1, 0, 0, 5deg);
+    animation: rotate 5s infinite linear;
+}
+
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 11%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer img {
+    border-radius: 5%;
+    width: 3%;
+    height: auto;
+}
+
+head {
+    background-color: rgb(101, 101, 215);
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
